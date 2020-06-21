@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Room from './Room.js';
+import App from './App.js';
 
 //const Hi=({name,age}) =>  <div>{"Name: "+ name }{ ", Age:" + age} </div>
 
 
 
-ReactDOM.render(<Room/>,
+ReactDOM.render(<App/>,
  document.querySelector('#root'));
 
